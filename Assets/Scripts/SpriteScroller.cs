@@ -1,22 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpriteScroller : MonoBehaviour
+namespace LaserDefender
 {
-    [SerializeField] Vector2 moveSpeed;
-
-    Vector2 offset;
-    Material material;
-
-    void Awake()
+    public class SpriteScroller : MonoBehaviour
     {
-        material = GetComponent<SpriteRenderer>().material;
-    }
+        [SerializeField] private Vector2 moveSpeed;
 
-    void Update()
-    {
-        offset = moveSpeed * Time.deltaTime;
-        material.mainTextureOffset += offset;
+        private Vector2 offset;
+        private Material material;
+
+        private void Awake()
+        {
+            material = GetComponent<SpriteRenderer>().material;
+        }
+
+        private void Update()
+        {
+            offset = moveSpeed * Time.deltaTime;
+            material.mainTextureOffset += offset;
+        }
     }
 }
