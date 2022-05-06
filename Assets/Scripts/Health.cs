@@ -12,7 +12,6 @@ namespace LaserDefender
         [SerializeField] private ParticleSystem hitEffect;
 
         [SerializeField] private bool applyCameraShake;
-        private CameraShake cameraShake;
 
         private AudioManager _audioManager;
         private ScoreManager _scoreManager;
@@ -20,8 +19,6 @@ namespace LaserDefender
 
         private void Awake()
         {
-            cameraShake = Camera.main.GetComponent<CameraShake>();
-            
             _audioManager = FindObjectOfType<AudioManager>();
             _scoreManager = FindObjectOfType<ScoreManager>();
             levelManager = FindObjectOfType<LevelManager>();
@@ -38,7 +35,6 @@ namespace LaserDefender
             
             _audioManager.PlayDamageClip();
             
-            ShakeCamera();
             damageDealer.Hit();
         }
 
@@ -80,14 +76,6 @@ namespace LaserDefender
             var main = instance.main;
                 
             Destroy(instance.gameObject, main.duration + main.startLifetime.constantMax);
-        }
-
-        private void ShakeCamera()
-        {
-            if (cameraShake != null && applyCameraShake)
-            {
-                cameraShake.Play();
-            }
         }
     }
 }

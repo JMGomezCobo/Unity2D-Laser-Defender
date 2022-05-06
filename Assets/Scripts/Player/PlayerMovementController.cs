@@ -16,11 +16,11 @@ namespace LaserDefender.Player
         private Vector2 minBounds;
         private Vector2 maxBounds;
 
-        private PlayerShootController _playerShootController;
+        private ShootController _shootController;
 
         private void Awake()
         {
-            _playerShootController = GetComponent<PlayerShootController>();
+            _shootController = GetComponent<ShootController>();
         }
 
         private void Start()
@@ -64,9 +64,9 @@ namespace LaserDefender.Player
 
         private void OnFire(InputValue value)
         {
-            if (_playerShootController != null)
+            if (_shootController != null)
             {
-                _playerShootController.isFiring = value.isPressed;
+                _shootController.isFiring = value.isPressed;
             }
         }
     }
