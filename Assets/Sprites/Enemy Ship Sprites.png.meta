@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 8db2edb377a601b48b5a5705c5dc29fd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 253
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccbcd525494879489e2e2013b6eeeb9
+      internalID: 1084907361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 254
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc9dafa15bd6244494cb76b2b400784
+      internalID: -1368407821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c90dadd754334184382d2c9e93dcc
+      internalID: -954079065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 234
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0cec35695f4ab4a9d27be7bc395c3c
+      internalID: -1288657158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 235
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4eaea5846ab245ab5d81172df6c37
+      internalID: -1614443276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 235
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ab8fe5ef9b9e14eadb09e02517c220
+      internalID: 1676765611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 234
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1dc58cb0562fe4d973b4ffa7f4fe00
+      internalID: 91068335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 235
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e1807e45492144a9a784072257fcab
+      internalID: -1047714132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 234
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9136a1324aea3e74b9b309f6ea414882
+      internalID: 1877467088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 234
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05722d5148de2f408ff5c3d5f0f133a
+      internalID: 79370791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 234
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb425be42f85174aabbd8ec458dca40
+      internalID: -1654078109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 218
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb89056d31f634e9dd02ed6c2d1f12
+      internalID: 1570075743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 216
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4238276e2380b574fa3629053ac6b1a5
+      internalID: 2090123822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 217
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579c5e6d4d641f41b8f7eb43c9197df
+      internalID: 241140663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 216
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3276eaa9b49e785478e268d5b0072082
+      internalID: 49434068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 217
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80c7c7e9aaa4a94080b78e2647868e1
+      internalID: -1251059269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 217
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1985a9e15490346980fa1103ea8bcf
+      internalID: 1320246815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 217
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccbdf898f277ce4e8886176fb0093c0
+      internalID: 1962169063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 217
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dcf794e1fc2944aa194b9b3d3abf4b
+      internalID: -799977347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 217
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccae61acf8e6d9d44a1520c7fb5e98f4
+      internalID: -777472952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb014dab2ace684db1bb3a88e43c871
+      internalID: 926687292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcc97dd40b2d3d4d8259f02fc22f2b1
+      internalID: -1062785543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d712cb6ace78d2744b3a7a2c52807e01
+      internalID: -1081570716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 198
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81c459bce4ee94799d7f17234a1c4b
+      internalID: 691786114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 199
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d8b7a3715ea2d46a6efacf8d537429
+      internalID: 1986115829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 198
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14290f63405f5c640b4e28ccce668d0d
+      internalID: -447195347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 200
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19a32d04ee038344b3acb6f1ec67144
+      internalID: 888794670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 198
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5ed23841024924783792f9e5b25ec8
+      internalID: -712278218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 200
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09930248125b5fe439f8dd6d1b1e1bfa
+      internalID: -53086873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f1bfe8ae5e9a408a38734f6772ae9
+      internalID: 1582834802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 180
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404ae2b7cf8e48e469a631b6db88b566
+      internalID: -136593381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 181
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f54b1a984b64734ab967c64c7e10272
+      internalID: -1036291277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 180
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5accfec9fc584ab4a816db6c85c197d4
+      internalID: 1976913268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 180
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c83b02146261fd4dbd99b508ce5ecf1
+      internalID: 1573104164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 180
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4c56f239c6333459e32bd358d9a5fa
+      internalID: -1936806230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c8ec298c2029240ac0d502927f4c34
+      internalID: 963990061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 180
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d1f5246b58b6e419cc0457824e96cc
+      internalID: 2060339047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 180
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab9d112f78fbf841bf5b22867196ea0
+      internalID: 25622819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 162
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99de990d70a699e46a3757d3fec30746
+      internalID: -174780637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 162
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c520af242ccf8f438435218c7a22fc8
+      internalID: -2068522129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 163
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bdb4e71dd1c6a4fad56ee98ab39c7b
+      internalID: 1212622950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 163
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6126e3a4eb5af4ebb3954c264ba230
+      internalID: 205569928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 162
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdee3236c1a8719409aa823fc0b4cdf0
+      internalID: 2113749243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 162
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f07c0a7dd69a5744b0c644f51e14a60
+      internalID: 1943361065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 162
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c3c3d1a958774a99eb2b6469ac8ec
+      internalID: -1579545619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 162
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7fef2cdea3a584faf207569f201567
+      internalID: 1860142854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 162
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812db5683197a4d47a0170d959f56c97
+      internalID: -391379971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f9764e39fe7354cbd97da1e1aee239
+      internalID: -1241281021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 145
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ce30ac52ff7eb44803bff7ddb86dca
+      internalID: -1748792397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb31032f2b648249a45830380ad33ab
+      internalID: 1073343757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 144
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eec72937adc124890bdd13c5091a87
+      internalID: 303576477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 145
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324684be7782221438283719f3154df3
+      internalID: 1810290664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 144
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2761bf9132d70914d988635188f4a3ad
+      internalID: 1970557344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 145
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7429df3149aff5419a337138ee6baa8
+      internalID: 865438730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 144
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e167233e76a1499c60c39f800c386
+      internalID: 412378270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba71f0845a452f44bdedc02b2ea6700
+      internalID: -2125916388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ba362a6892a6478c9fd8770ffdf7f
+      internalID: -1610357582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 128
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc3f948b75db59489af8e7612b22929
+      internalID: -129010278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 126
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fdb18ae877fa24687b32b27a202c38
+      internalID: 158371524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 126
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8c1de7d5d910940a357697ebcf5703
+      internalID: 1932635778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 126
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbbfc66f1d4f5c488ab0bc5d859a29e
+      internalID: -2024938983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 127
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8c611a889c9264cb78be953b5885fa
+      internalID: 542288871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 127
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dc7be1d1ca50a48b264c16841e4385
+      internalID: -516452855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 126
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f019cc9f6397346aec603f82ba26dd
+      internalID: 1734719315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 126
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236d30355588cfb42bc995ac8e472b87
+      internalID: 65951365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b0a572ce907db49883fb23e36191fd
+      internalID: -753499481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 108
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc2bf0d2a92c384a983b9d1eafd1452
+      internalID: -1766026586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 109
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2e0877285a466408b2f4bd4786e5a9
+      internalID: 2057598092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 110
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6a11d1b0632d140b85596b0958b7b7
+      internalID: -1204746178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 109
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8444d823718bd5546a05d23639e8e8f8
+      internalID: -88204158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 109
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f08563b03ebd3444912f62d70f39af4
+      internalID: -1576470114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 108
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb993e981fc81af4fb20e4ca90cfb2ab
+      internalID: 688752552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 109
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ee194a8399120458b89af434c16ba6
+      internalID: -204230658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 108
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d64fdb7b936a8f4092103b7ee99cff2
+      internalID: -2104945271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df45a621b60e24a92f431ee361436b
+      internalID: 1883442009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8c0471840f1f843880896a29a7468b
+      internalID: -1779058907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b60abac71d7eb439dd60deef978538
+      internalID: 1062906086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 91
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a850c54a939cf594aada26af040f1a07
+      internalID: -1195338223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 92
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d791f30098e36e4198b0ca778bbbf62
+      internalID: 1598537306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 91
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6f3f7451031314c82b5c2dc7ba9d5f
+      internalID: 2050553718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 90
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a644a3fda5727418f70157cb9a7260
+      internalID: 1271079758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 92
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd28a22ce7d4d264389e3da26c87e059
+      internalID: -384826882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 91
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b20a35c660ffbe4994be1b69269714a
+      internalID: -1963468913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddc4af9cb8378b4a951c1c22697c6b2
+      internalID: 995541521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 73
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4100754a899f57741bb568a8909a9d91
+      internalID: -2006962896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 72
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7525fb952e6714b9c3e9b7baa82a2a
+      internalID: 1768007523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 73
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b080c7dc4f4bd9149bd0f7324b712bba
+      internalID: 109003130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 73
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1940975e965bdb04d941aa2941d4ed4b
+      internalID: 776135665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 73
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa50acd5daea24449f0d9432da9ea30
+      internalID: -639017697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 74
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170699aeade91ee489c337e1404fd8c1
+      internalID: 1953274819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 73
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b2004ac105ab4dafd3ce7e827a448
+      internalID: -1020937738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 73
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eac3cfefe4432b439779cd3b1fd6352
+      internalID: -549822474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaa81632f6a4bc4eaf69d693b7e18d3
+      internalID: -2083209738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 54
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b281f7a5dff1d5f4ca8f845c5ee5a1aa
+      internalID: -784885461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 54
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b9458e4059ab947ba772c59edc4aaa
+      internalID: -861873636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 54
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fd6e10f962924d8ef68123a5f759e
+      internalID: 700377035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85524194c152b9e4882a5918492185d0
+      internalID: -1099968392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 55
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544a3dfaefa848e4482fccfa46377bdb
+      internalID: -1437530513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 56
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0aaec8dce9b9a40936b302f01bf7fb
+      internalID: 1699337646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 56
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b987f59fc71a224bba5a0bb5d1728f9
+      internalID: 868570129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 54
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce91268327f45034e92554d38fa6f426
+      internalID: -231713424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88476431c4081246ad57a0506529251
+      internalID: 1504173686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db52d9341d031544db964b40d8187fec
+      internalID: 1856856476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c8623d97e654b44adf0b2d141a891b
+      internalID: -1004993789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 36
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedcd46513c29be469ce65a58c19561e
+      internalID: 296755160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 36
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868762ade20b2374eac5fd1259278612
+      internalID: -560153835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 37
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f2c6838702dfa488f3727d0c50eb39
+      internalID: -2140267114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 37
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a86c250f7435b418005e07e83609d3
+      internalID: 85563507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 36
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339950e940de7cd46807f1b258f02800
+      internalID: -1957007304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 37
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125e8a2b91b4f99438caf12e9cf8fb1b
+      internalID: -2081443662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3c68e4e62d33479887dc59ec50515
+      internalID: 1299977414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bb5422f9a789b4598ba018f4123b8c
+      internalID: -279016056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 19
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1c27aa85bf3cb4d9ea86728e570216
+      internalID: -809300427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf54a96cd16e7a43bde26c00601d9bb
+      internalID: -1938415370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 19
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13657fa90c475a347a24df6990f5e3eb
+      internalID: 1523281455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7971bda910a8e418f664ce2fbfa869
+      internalID: -153722889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 19
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63866444f3c63241a16a358c9722956
+      internalID: 1865049257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 19
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96c7a2ed201d8a4b979a1b120e74027
+      internalID: 1600356305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 19
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90250aa9e9e127047bca4dc1886ffec3
+      internalID: 168677616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6789bf5e2ffe90e4fa8d7fb38825cf83
+      internalID: 190429343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361239402ff84a249befb668c87c2684
+      internalID: 1277099428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ae923913c06314e9a0b458cdc718f8
+      internalID: 968141678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4716ff472f94f94682f40bf5543be94
+      internalID: 1114756272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8750788a8c614429381c7e9d12d2d2
+      internalID: -748895216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9225c54fb1026d749aee2902a97ebb67
+      internalID: -785740279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e689b1bd8da8f684b92445bc1324c185
+      internalID: 1524072760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32c37b331713af4897754743bd51a70
+      internalID: -1812361412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy Ship Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b01a55e0b0ee64fb927607ca42a695
+      internalID: -1032754883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Enemy Ship Sprites_74: 1883442009
+      Enemy Ship Sprites_82: -1963468913
+      Enemy Ship Sprites_6: 91068335
+      Enemy Ship Sprites_11: 1570075743
+      Enemy Ship Sprites_37: 25622819
+      Enemy Ship Sprites_22: -1081570716
+      Enemy Ship Sprites_111: -279016056
+      Enemy Ship Sprites_70: -1576470114
+      Enemy Ship Sprites_8: 1877467088
+      Enemy Ship Sprites_114: 1523281455
+      Enemy Ship Sprites_54: 412378270
+      Enemy Ship Sprites_28: -53086873
+      Enemy Ship Sprites_97: -1437530513
+      Enemy Ship Sprites_20: 926687292
+      Enemy Ship Sprites_72: -204230658
+      Enemy Ship Sprites_61: 542288871
+      Enemy Ship Sprites_27: -712278218
+      Enemy Ship Sprites_64: 65951365
+      Enemy Ship Sprites_65: -753499481
+      Enemy Ship Sprites_99: 868570129
+      Enemy Ship Sprites_1: -1368407821
+      Enemy Ship Sprites_79: 2050553718
+      Enemy Ship Sprites_115: -153722889
+      Enemy Ship Sprites_0: 1084907361
+      Enemy Ship Sprites_2: -954079065
+      Enemy Ship Sprites_17: 1962169063
+      Enemy Ship Sprites_86: 109003130
+      Enemy Ship Sprites_98: 1699337646
+      Enemy Ship Sprites_10: -1654078109
+      Enemy Ship Sprites_69: -88204158
+      Enemy Ship Sprites_94: -861873636
+      Enemy Ship Sprites_29: 1582834802
+      Enemy Ship Sprites_13: 241140663
+      Enemy Ship Sprites_112: -809300427
+      Enemy Ship Sprites_40: 1212622950
+      Enemy Ship Sprites_45: 1860142854
+      Enemy Ship Sprites_118: 168677616
+      Enemy Ship Sprites_80: 1271079758
+      Enemy Ship Sprites_120: 1277099428
+      Enemy Ship Sprites_59: 1932635778
+      Enemy Ship Sprites_12: 2090123822
+      Enemy Ship Sprites_44: -1579545619
+      Enemy Ship Sprites_39: -2068522129
+      Enemy Ship Sprites_77: -1195338223
+      Enemy Ship Sprites_31: -1036291277
+      Enemy Ship Sprites_50: 303576477
+      Enemy Ship Sprites_105: -560153835
+      Enemy Ship Sprites_25: -447195347
+      Enemy Ship Sprites_55: -2125916388
+      Enemy Ship Sprites_109: -2081443662
+      Enemy Ship Sprites_71: 688752552
+      Enemy Ship Sprites_24: 1986115829
+      Enemy Ship Sprites_92: -2083209738
+      Enemy Ship Sprites_102: 1856856476
+      Enemy Ship Sprites_124: -785740279
+      Enemy Ship Sprites_108: -1957007304
+      Enemy Ship Sprites_21: -1062785543
+      Enemy Ship Sprites_113: -1938415370
+      Enemy Ship Sprites_57: -129010278
+      Enemy Ship Sprites_87: 776135665
+      Enemy Ship Sprites_68: -1204746178
+      Enemy Ship Sprites_56: -1610357582
+      Enemy Ship Sprites_43: 1943361065
+      Enemy Ship Sprites_7: -1047714132
+      Enemy Ship Sprites_35: 963990061
+      Enemy Ship Sprites_76: 1062906086
+      Enemy Ship Sprites_89: 1953274819
+      Enemy Ship Sprites_84: -2006962896
+      Enemy Ship Sprites_49: 1073343757
+      Enemy Ship Sprites_123: -748895216
+      Enemy Ship Sprites_67: 2057598092
+      Enemy Ship Sprites_15: -1251059269
+      Enemy Ship Sprites_16: 1320246815
+      Enemy Ship Sprites_66: -1766026586
+      Enemy Ship Sprites_38: -174780637
+      Enemy Ship Sprites_95: 700377035
+      Enemy Ship Sprites_81: -384826882
+      Enemy Ship Sprites_90: -1020937738
+      Enemy Ship Sprites_42: 2113749243
+      Enemy Ship Sprites_110: 1299977414
+      Enemy Ship Sprites_101: 1504173686
+      Enemy Ship Sprites_73: -2104945271
+      Enemy Ship Sprites_96: -1099968392
+      Enemy Ship Sprites_30: -136593381
+      Enemy Ship Sprites_127: -1032754883
+      Enemy Ship Sprites_117: 1600356305
+      Enemy Ship Sprites_32: 1976913268
+      Enemy Ship Sprites_52: 1970557344
+      Enemy Ship Sprites_104: 296755160
+      Enemy Ship Sprites_62: -516452855
+      Enemy Ship Sprites_36: 2060339047
+      Enemy Ship Sprites_34: -1936806230
+      Enemy Ship Sprites_19: -777472952
+      Enemy Ship Sprites_103: -1004993789
+      Enemy Ship Sprites_63: 1734719315
+      Enemy Ship Sprites_85: 1768007523
+      Enemy Ship Sprites_126: -1812361412
+      Enemy Ship Sprites_107: 85563507
+      Enemy Ship Sprites_93: -784885461
+      Enemy Ship Sprites_23: 691786114
+      Enemy Ship Sprites_14: 49434068
+      Enemy Ship Sprites_5: 1676765611
+      Enemy Ship Sprites_46: -391379971
+      Enemy Ship Sprites_60: -2024938983
+      Enemy Ship Sprites_78: 1598537306
+      Enemy Ship Sprites_58: 158371524
+      Enemy Ship Sprites_9: 79370791
+      Enemy Ship Sprites_47: -1241281021
+      Enemy Ship Sprites_53: 865438730
+      Enemy Ship Sprites_88: -639017697
+      Enemy Ship Sprites_26: 888794670
+      Enemy Ship Sprites_75: -1779058907
+      Enemy Ship Sprites_4: -1614443276
+      Enemy Ship Sprites_106: -2140267114
+      Enemy Ship Sprites_18: -799977347
+      Enemy Ship Sprites_41: 205569928
+      Enemy Ship Sprites_3: -1288657158
+      Enemy Ship Sprites_51: 1810290664
+      Enemy Ship Sprites_33: 1573104164
+      Enemy Ship Sprites_100: -231713424
+      Enemy Ship Sprites_48: -1748792397
+      Enemy Ship Sprites_83: 995541521
+      Enemy Ship Sprites_91: -549822474
+      Enemy Ship Sprites_122: 1114756272
+      Enemy Ship Sprites_116: 1865049257
+      Enemy Ship Sprites_121: 968141678
+      Enemy Ship Sprites_119: 190429343
+      Enemy Ship Sprites_125: 1524072760
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,6 @@
 using LaserDefender.AI;
 using LaserDefender.Managers;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 namespace LaserDefender
@@ -9,17 +10,16 @@ namespace LaserDefender
         [SerializeField] private bool isPlayer;
         [SerializeField] private int health = 50;
         [SerializeField] private int score = 50;
-        [SerializeField] private ParticleSystem hitEffect;
 
-        [SerializeField] private bool applyCameraShake;
-
-        private AudioManager _audioManager;
         private ScoreManager _scoreManager;
         private LevelManager levelManager;
+        
+        [Header("Feedbacks")]
+        [SerializeField] private MMFeedbacks _damageFeedbacks;
+        [SerializeField] private MMFeedbacks _deathFeedbacks;
 
         private void Awake()
         {
-            _audioManager = FindObjectOfType<AudioManager>();
             _scoreManager = FindObjectOfType<ScoreManager>();
             levelManager = FindObjectOfType<LevelManager>();
         }
@@ -31,10 +31,8 @@ namespace LaserDefender
             if (damageDealer == null) return;
             
             TakeDamage(damageDealer.GetDamage());
-            PlayHitEffect();
-            
-            _audioManager.PlayDamageClip();
-            
+            _damageFeedbacks.PlayFeedbacks();
+
             damageDealer.Hit();
         }
 
@@ -46,7 +44,7 @@ namespace LaserDefender
         private void TakeDamage(int damage)
         {
             health -= damage;
-            
+
             if (health <= 0)
             {
                 Die();
@@ -65,17 +63,8 @@ namespace LaserDefender
                 levelManager.LoadGameOver();
             }
             
+            _deathFeedbacks.PlayFeedbacks();
             Destroy(gameObject);
-        }
-
-        private void PlayHitEffect()
-        {
-            if (hitEffect == null) return;
-            
-            var instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            var main = instance.main;
-                
-            Destroy(instance.gameObject, main.duration + main.startLifetime.constantMax);
         }
     }
 }
