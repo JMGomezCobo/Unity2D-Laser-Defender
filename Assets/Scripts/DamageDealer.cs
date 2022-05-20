@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageDealer : MonoBehaviour
+namespace LaserDefender
 {
-    [SerializeField] int damage = 10;
-
-    public int GetDamage()
+    public class DamageDealer : MonoBehaviour
     {
-        return damage;
-    }
+        [SerializeField] private int damage = 10;
 
-    public void Hit()
-    {
-        Destroy(gameObject);
+        public int GetDamage()
+        {
+            return damage;
+        }
+
+        public void Hit()
+        {
+            Destroy(gameObject);
+        }
     }
 }

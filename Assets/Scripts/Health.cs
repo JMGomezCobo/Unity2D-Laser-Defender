@@ -1,84 +1,88 @@
-using System.Collections;
-using System.Collections.Generic;
+using LaserDefender.Managers;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+namespace LaserDefender
 {
-    [SerializeField] bool isPlayer;
-    [SerializeField] int health = 50;
-    [SerializeField] int score = 50;
-    [SerializeField] ParticleSystem hitEffect;
-
-    [SerializeField] bool applyCameraShake;
-    CameraShake cameraShake;
-
-    AudioPlayer audioPlayer;
-    ScoreKeeper scoreKeeper;
-    LevelManager levelManager;
-
-    void Awake()
+    public class Health : MonoBehaviour
     {
-        cameraShake = Camera.main.GetComponent<CameraShake>();
-        audioPlayer = FindObjectOfType<AudioPlayer>();
-        scoreKeeper = FindObjectOfType<ScoreKeeper>();
-        levelManager = FindObjectOfType<LevelManager>();
-    }
+        [SerializeField] private bool isPlayer;
+        [SerializeField] private int health = 50;
+        [SerializeField] private int score = 50;
+        [SerializeField] private ParticleSystem hitEffect;
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        DamageDealer damageDealer = other.GetComponent<DamageDealer>();
+        [SerializeField] private bool applyCameraShake;
+        private CameraShake cameraShake;
 
-        if(damageDealer != null)
+        private AudioManager _audioManager;
+        private ScoreManager _scoreManager;
+        private LevelManager levelManager;
+
+        private void Awake()
         {
-            TakeDamage(damageDealer.GetDamage());
-            PlayHitEffect();
-            audioPlayer.PlayDamageClip();
-            ShakeCamera();
-            damageDealer.Hit();
+            cameraShake = Camera.main.GetComponent<CameraShake>();
+            _audioManager = FindObjectOfType<AudioManager>();
+            _scoreManager = FindObjectOfType<ScoreManager>();
+            levelManager = FindObjectOfType<LevelManager>();
         }
-    }
 
-    public int GetHealth()
-    {
-        return health;
-    }
-
-    void TakeDamage(int damage)
-    {
-        health -= damage;
-        if(health <= 0)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            Die();
+            var damageDealer = other.GetComponent<DamageDealer>();
+
+            if(damageDealer != null)
+            {
+                TakeDamage(damageDealer.GetDamage());
+                PlayHitEffect();
+                _audioManager.PlayDamageClip();
+                ShakeCamera();
+                damageDealer.Hit();
+            }
         }
-    }
 
-    void Die()
-    {
-        if(!isPlayer)
+        public int GetHealth()
         {
-            scoreKeeper.ModifyScore(score);
+            return health;
         }
-        else
-        {
-            levelManager.LoadGameOver();
-        }
-        Destroy(gameObject);
-    }
 
-    void PlayHitEffect()
-    {
-        if(hitEffect != null)
+        private void TakeDamage(int damage)
         {
-            ParticleSystem instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+            health -= damage;
+            
+            if (health <= 0)
+            {
+                Die();
+            }
         }
-    }
 
-    void ShakeCamera()
-    {
-        if(cameraShake != null && applyCameraShake)
+        private void Die()
         {
-            cameraShake.Play();
+            if (!isPlayer)
+            {
+                _scoreManager.ModifyScore(score);
+            }
+            
+            else
+            {
+                levelManager.LoadGameOver();
+            }
+            Destroy(gameObject);
+        }
+
+        private void PlayHitEffect()
+        {
+            if (hitEffect != null)
+            {
+                var instance = Instantiate(hitEffect, transform.position, Quaternion.identity);
+                Destroy(instance.gameObject, instance.main.duration + instance.main.startLifetime.constantMax);
+            }
+        }
+
+        private void ShakeCamera()
+        {
+            if(cameraShake != null && applyCameraShake)
+            {
+                cameraShake.Play();
+            }
         }
     }
 }

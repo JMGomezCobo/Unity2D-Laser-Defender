@@ -1,34 +1,36 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraShake : MonoBehaviour
+namespace LaserDefender
 {
-    [SerializeField] float shakeDuration = 1f;
-    [SerializeField] float shakeMagnitude = 0.5f;
-
-    Vector3 initialPosition;
-
-    void Start()
+    public class CameraShake : MonoBehaviour
     {
-        initialPosition = transform.position;
-    }
+        [SerializeField] private float shakeDuration = 1f;
+        [SerializeField] private float shakeMagnitude = 0.5f;
 
-    public void Play()
-    {
-        StartCoroutine(Shake());
-    }
+        private Vector3 initialPosition;
 
-    IEnumerator Shake()
-    {
-        float elapsedTime = 0;
-        while(elapsedTime < shakeDuration)
+        private void Start()
         {
-            transform.position = initialPosition + (Vector3)Random.insideUnitCircle * shakeMagnitude;
-            elapsedTime += Time.deltaTime;
-            yield return new WaitForEndOfFrame();
+            initialPosition = transform.position;
         }
-        transform.position = initialPosition;
-    }
 
+        public void Play()
+        {
+            StartCoroutine(Shake());
+        }
+
+        private IEnumerator Shake()
+        {
+            float elapsedTime = 0;
+            while(elapsedTime < shakeDuration)
+            {
+                transform.position = initialPosition + (Vector3)Random.insideUnitCircle * shakeMagnitude;
+                elapsedTime += Time.deltaTime;
+                yield return new WaitForEndOfFrame();
+            }
+            transform.position = initialPosition;
+        }
+
+    }
 }
