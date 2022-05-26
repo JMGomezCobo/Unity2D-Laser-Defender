@@ -27,7 +27,6 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6387924003853580222}
   m_RootOrder: 0
@@ -94,9 +93,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6387924003853580222}
   - component: {fileID: 7945678476444464871}
+  - component: {fileID: 955290185678201707}
   - component: {fileID: -6990189773636750305}
   - component: {fileID: 2687119112891213650}
-  - component: {fileID: 955290185678201707}
   - component: {fileID: 3005095620657558478}
   - component: {fileID: -6001022227262058683}
   m_Layer: 6
@@ -116,7 +115,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3981895614104405607}
   m_Father: {fileID: 0}
@@ -152,6 +150,23 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &955290185678201707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715759363666546350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88aecf1b636220b4fb8e7cd31962ccd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  paddingLeft: 0.5
+  paddingRight: 0.5
+  paddingTop: 8
+  paddingBottom: 2
 --- !u!50 &-6990189773636750305
 Rigidbody2D:
   serializedVersion: 4
@@ -189,23 +204,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.0154880285}
   serializedVersion: 2
   m_Radius: 0.3838399
---- !u!114 &955290185678201707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4715759363666546350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88aecf1b636220b4fb8e7cd31962ccd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  paddingLeft: 0.5
-  paddingRight: 0.5
-  paddingTop: 8
-  paddingBottom: 2
 --- !u!114 &3005095620657558478
 MonoBehaviour:
   m_ObjectHideFlags: 0
